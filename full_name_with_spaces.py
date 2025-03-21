@@ -1,3 +1,4 @@
-#Ask the user to input their full name with spaces
-#use the strip command to remove the extra spaces
-#print the name
+fullname = input("Please enter your full name: ")
+remove_spaces = fullname.lstrip()
+
+print("your name is: " + remove_spaces)
