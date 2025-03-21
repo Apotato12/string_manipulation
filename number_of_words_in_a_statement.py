@@ -1,4 +1,7 @@
-#ask the user to input a statement
-#use the split method to split the statement
-#use the len method to count the number of words in the statement
-#print the result
+statement = input("Please enter a complete statement: ")
+
+statement_to_words = statement.split()
+
+word_count = len(statement_to_words)
+
+print("Number of words in the statement:", word_count)
