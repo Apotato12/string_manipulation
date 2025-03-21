@@ -1,7 +1,15 @@
-statement = input("Please enter a complete statement: ")
+# Program 7 Batch 5
+# Atienza, Rein Gabriel
+# BSCPE 1-2
 
-statement_to_words = statement.split()
+def words_in_statement():
+    """asks the user to input a statement and prints the number of words in the statement."""
+    statement = input("Please enter a complete statement: ")
 
-word_count = len(statement_to_words)
+    statement_to_words = statement.split()
 
-print("Number of words in the statement:", word_count)
+    word_count = len(statement_to_words)
+
+    print("Number of words in the statement:", word_count)
+
+words_in_statement()
