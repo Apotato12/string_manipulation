@@ -1,3 +1,6 @@
-#ask the user for numbers between 1 and 1000
-#format the number so that it's 6 digits and leads with 0 in the front
-#print the formatted number
+number = int(input("Please enter a number (0-1000): "))
+
+if 0 <= number <= 1000:
+    formatted_number = f"{number:06}"
+    
+    print("Formatted number:", formatted_number)
